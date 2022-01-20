@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&display=swap');
+
+
+body{background-image: url(https://www.wallpapertip.com/wmimgs/75-755364_aesthetic-background-for-powerpoint.jpg);
+  background-repeat: no-repeat;
+  background-size: 1300px 620px;}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.title{font-family: 'Amatic SC', cursive;
+font-size: 100px;
+color: black; margin-top:5rem}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.additem{    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+width: 5rem;
+height: 2rem;
+}
+
+.input{     justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 100rem;
+  height: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  font-size:2rem;}
+
+  .liste{  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  margin:1rem;}
+
+ .listitem{text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.2rem;
+  width: 20rem;
+  height: 2.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+font-size:2rem;
+color:rgb(185, 137, 4);
+font-weight: bold}
+
